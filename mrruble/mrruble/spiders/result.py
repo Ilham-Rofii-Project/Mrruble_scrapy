@@ -2,7 +2,7 @@ import scrapy
 
 
 class Result7Spider(scrapy.Spider):
-    name = 'result7'
+    name = 'result'
     allowed_domains = ['www.mrrubble.co.uk']
     start_urls = ['https://www.mrrubble.co.uk/blog/']
 
